@@ -35,7 +35,7 @@ int main()
         milkAmount = {milkAmount / milkMin};
         std::cout << "You have " << milkAmount << " portions of milk.\n";
 
-        auto smallest{};
+        auto smallest{0};
         if(eggsAmount <= milkAmount && milkAmount <= flourAmount){
             smallest = {eggsAmount};
         }

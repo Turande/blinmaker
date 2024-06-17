@@ -36,7 +36,7 @@ int main()
         milkAmount = milkAmount / milkMin;
         printf("You have %d portions of milk.\n", milkAmount);
 
-        int smallest;
+        int smallest = 0;
         if(eggsAmount <= milkAmount && milkAmount <= flourAmount)
         {
             smallest = eggsAmount;
